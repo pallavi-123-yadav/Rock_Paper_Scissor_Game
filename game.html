@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.64/build/spline-viewer.js"></script>
+</head>
+<body>
+  
+<spline-viewer class="background" url="https://prod.spline.design/7q9sSeEimzb7F12u/scene.splinecode"></spline-viewer>
+    <h1>ROCK PAPER SCISSOR</h1>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="images/rock.webp">
+      </div>
+      <div class="choice" id="paper">
+        <img src="images/paper.webp">
+      </div>
+      <div class="choice" id="scissor">
+        <img src="images/scissor.jpg">
+      </div>
+    </div>
+    <div class="final-result">
+      <div id="result">hello</div>
+    </div>
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>YOU</p>
+      </div>
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>COMP</p>
+      </div>
+    </div>
+    <div class="msg-container">
+      <p id="msg">Play your move</p>
+    </div>
+  <script src="game.js"></script>
+</body>
+</html>
